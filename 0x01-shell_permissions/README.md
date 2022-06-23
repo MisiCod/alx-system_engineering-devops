@@ -10,3 +10,4 @@ This time we are handling the Permissions in shell.
 8. Owner and groups no permissions but others all permissions
 9.-rwxr-x-wx => chmod 753 hello \n
 10. Sets the mode of the file hello the same as olleh’s mode. => chmod --reference=hello olleh
+11. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. =>chmod u+x g+x o+x $(find /alx-system_engineering-devops/0x01-shell_permissions -type d) \n
