@@ -8,3 +8,4 @@ This time we are handling the Permissions in shell.
 6. Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello => chmod 554 hello \n
 7.A script that adds execution permission to the owner, the group owner and the other users, to the file hello => chmod 751 hello \n
 8. Owner and groups no permissions but others all permissions
+9.-rwxr-x-wx => chmod 753 hello \n
