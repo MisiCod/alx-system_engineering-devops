@@ -9,3 +9,4 @@ This time we are handling the Permissions in shell.
 7.A script that adds execution permission to the owner, the group owner and the other users, to the file hello => chmod 751 hello \n
 8. Owner and groups no permissions but others all permissions
 9.-rwxr-x-wx => chmod 753 hello \n
+10. Sets the mode of the file hello the same as olleh’s mode. => chmod --reference=hello olleh
