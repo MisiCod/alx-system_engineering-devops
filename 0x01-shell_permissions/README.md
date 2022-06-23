@@ -5,4 +5,5 @@ This time we are handling the Permissions in shell.
 3. changes the owner of the file hello to the user betty => chown betty hello \n
 4. Create an empty file called hello => touch hello \n
 5. A script that adds execute permission to the owner of the file hello => chmod u+x hello \n
-6. Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello => chmod 114 hello \n 
+6. Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello => chmod 114 hello \n
+7.A script that adds execution permission to the owner, the group owner and the other users, to the file hello => chmod 751 hello \n
