@@ -12,3 +12,4 @@ This time we are handling the Permissions in shell.
 10. Sets the mode of the file hello the same as olleh’s mode. => chmod --reference=hello olleh
 11. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. =>chmod +111 $(find * -type d) \n
 12. Create a script that creates a directory called my_dir with permissions 751 in the working directory. => mkdir -m 751 my_dir
+13. Write a script that changes the group owner to school for the file hello =>chgrp school hello \n
