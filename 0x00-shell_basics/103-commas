@@ -1,0 +1,2 @@
+#!/bib/bash
+ls -m  -p -a -v -b
