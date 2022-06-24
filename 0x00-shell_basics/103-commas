@@ -1,2 +1,2 @@
-#!/bib/bash
+#!/bin/bash
 ls -m  -p -a -v -b
