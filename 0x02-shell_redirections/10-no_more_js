@@ -1,2 +1,2 @@
 #!/bin/bash
-find /dir/ -type f -name '*js' -delete 
+ls -R > find  -type f -name '*js'  
