@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R > find  -type f -name '*js' -delete  
+rm $(ls -R | grep -i \.js > rm)   
