@@ -1,2 +1,2 @@
 #!/bin/bash
-find  -exec sha1sum '{}' \+ | sort | uniq -c --check-chars 40 | egrep '^ *1 ' | cut -c 51-
+sort | uniq -u
