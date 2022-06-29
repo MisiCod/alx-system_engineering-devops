@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(ls -R | grep -i \.js > rm)   
+rm $(ls -R | grep -i \.js)   
